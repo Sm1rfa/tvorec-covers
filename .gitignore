@@ -1,0 +1,38 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Test / lint / type-checker caches
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# PyInstaller build output (packaging/tvorec-cover.spec is checked in;
+# only its generated output goes here)
+out/
+
+# Optional AI-upscale model file (see resources/models/README.md) --
+# users download and place this themselves, it's never committed
+src/cover_generator/resources/models/*.pb
+src/cover_generator/resources/models/*.onnx
+
+# Editor / IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Claude Code local (per-user) settings -- not shared project config
+.claude/settings.local.json

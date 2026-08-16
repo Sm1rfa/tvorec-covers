@@ -1,0 +1,10 @@
+# Let Git normalize line endings for text files, but never touch these --
+# corrupting an ICC profile or a compiled .qm/.icns/.ico by newline
+# translation would silently break color conversion, translations, or icons.
+*.icc binary
+*.icm binary
+*.qm binary
+*.png binary
+*.ico binary
+*.icns binary
+*.pdf binary
